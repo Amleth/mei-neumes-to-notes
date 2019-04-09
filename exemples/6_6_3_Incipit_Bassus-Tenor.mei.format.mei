@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://music-encoding.org/schema/4.0.0/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="4.0.0">
+  <meiHead>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <pubStmt/>
+    </fileDesc>
+    <encodingDesc xml:id="encodingdesc-0000001032530178">
+      <appInfo xml:id="appinfo-0000000871162301">
+        <application xml:id="application-0000000635204523" isodate="2019-03-11T15:53:12" version="2.1.0-dev-c75d068">
+          <name xml:id="name-0000001325427308">Verovio</name>
+          <p xml:id="p-0000000622990843">Transcoded from MusicXML</p>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </meiHead>
+  <music>
+    <body>
+      <mdiv xml:id="mdiv-0000001307819760">
+        <score xml:id="score-0000000933573629">
+          <scoreDef xml:id="fxd_fsk_bhb">
+            <staffGrp xml:id="gcw_fsk_bhb">
+              <staffDef xml:id="dcj_gsk_bhb" clef.shape="F" clef.line="3" key.mode="major" key.sig="2s" n="1" lines="5">
+                <label xml:id="qrx_gsk_bhb">Bassus-Tenor</label>
+              </staffDef>
+            </staffGrp>
+          </scoreDef>
+          <section xml:id="h4p_hsk_bhb">
+            <pb xml:id="r4m_3sk_bhb"/>
+            <pb xml:id="frj_lsk_bhb"/>
+            <staff xml:id="rgb_msk_bhb" n="1">
+              <layer xml:id="g5l_msk_bhb" n="1">
+                <syllable>
+                  <syl wordpos="i">A</syl>
+                  <neume xml:id="NB-T_6_6_3_1" type="1ca">
+                    <nc xml:id="x3c_tsIk_bhb" oct="4" pname="a"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">gnus</syl>
+                  <neume xml:id="NB-T_6_6_3_2" type="2ca">
+                    <nc xml:id="dd3_aezfvp1j_hhb" oct="3" pname="f" color="#000000"/>
+                    <nc xml:id="aekiikkigusIk_bhb" oct="3" pname="e"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="i">De</syl>
+                  <neume xml:id="NB-T_6_6_3_3" type="3ca">
+                    <nc xml:id="dd3_aezklfvp1j_hhb" oct="3" pname="d" color="#000000"/>
+                    <nc xml:id="x3cpko_tivaekikigusIk_bhb" oct="3" pname="e" color="#000000"/>
+                    <nc xml:id="aekikigufsIk_bhb" oct="3" pname="d"/>
+                  </neume>
+                </syllable>
+                <syllable>
+                  <syl wordpos="t">i,</syl>
+                  <neume xml:id="NB-T_6_6_3_4" type="4ca">
+                    <nc xml:id="dd3_aezfvpfd1j_hhb" oct="3" pname="e" color="#000000"/>
+                    <nc xml:id="aekikkiigusIk_bhb" oct="3" pname="c"/>
+                    <nc xml:id="aekikigusdIk_bhb" oct="3" pname="c"/>
+                    <nc xml:id="aedkikigusIk_bhb" oct="3" pname="d"/>
+                  </neume>
+                </syllable>
+              </layer>
+            </staff>
+          </section>
+        </score>
+      </mdiv>
+    </body>
+  </music>
+</mei>

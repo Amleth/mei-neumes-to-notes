@@ -11,7 +11,7 @@
                 <xsl:copy select="./mei:layer">
                     <xsl:copy-of select="@*"/>
                     <xsl:for-each select=".//mei:syllable/mei:neume/mei:nc">
-                        <note>
+                        <note dur="4" stem.len="0">
                             <xsl:copy-of select="@*"/>
                         </note>
                     </xsl:for-each>
